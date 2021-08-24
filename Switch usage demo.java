@@ -6,7 +6,7 @@ public class Main {
   
   public static void main(String[] args) {
     int input;
-    System.out.print("Make a selection:-  \n 1.Wow\t 2.Excitement\t 3.Happy\t");
+    System.out.println("Make a selection:-  \n 1.Wow\t 2.Excitement\t 3.Happy\t");
     Scanner sc=new Scanner(System.in);
     input=sc.nextInt();
     switch(input)
@@ -17,7 +17,7 @@ public class Main {
                 break;
      case 3 : System.out.println(" You have selected 'Happy' ");
                 break; 
-     Default : System.out.println(" Invalid selection. ");
+     default : System.out.println(" Invalid selection. ");
     }
   }
 }
